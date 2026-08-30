@@ -9,7 +9,7 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
 
-    background-image: url("https://images.pexels.com/photos/7429501/pexels-photo-7429501.jpeg");
+    background-image: url("https://pexels.com");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -44,16 +44,11 @@ h1 {
     margin: 0;
 }
 
-/* Question - Made black with a subtle white glow for high contrast readability */
+/* Question */
 #question {
     font-size: 30px;
     margin: 0;
-    color: #000000; /* Solid Black */
-    text-shadow: 
-        -1px -1px 0 #fff,  
-         1px -1px 0 #fff,
-        -1px  1px 0 #fff,
-         1px  1px 0 #fff; /* Creates a clean white outline so black text is highly visible */
+    color: #000000; /* Pure black text */
 }
 
 /* Answer */
