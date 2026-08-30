@@ -44,12 +44,16 @@ h1 {
     margin: 0;
 }
 
-/* Question */
-
+/* Question - Made black with a subtle white glow for high contrast readability */
 #question {
     font-size: 30px;
     margin: 0;
-    color: #000;
+    color: #000000; /* Solid Black */
+    text-shadow: 
+        -1px -1px 0 #fff,  
+         1px -1px 0 #fff,
+        -1px  1px 0 #fff,
+         1px  1px 0 #fff; /* Creates a clean white outline so black text is highly visible */
 }
 
 /* Answer */
@@ -120,9 +124,6 @@ button:hover {
     text-decoration: none;
     color: #000;
 }
-
-
-
 
 
 @media (max-width: 600px) {
