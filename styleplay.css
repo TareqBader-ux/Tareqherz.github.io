@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     min-height: 100vh;
@@ -9,7 +10,7 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
 
-    background-image: url("https://images.pexels.com/photos/7429501/pexels-photo-7429501.jpeg");
+    background-image: url("https://pexels.com");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -42,14 +43,25 @@ body {
 h1 {
     font-size: 40px;
     margin: 0;
-}
+    /* Adds a soft shadow behind the title */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+} cutout
 
 /* Question */
 
 #question {
-    font-size: 30px;
+    font-size: 36px;
     margin: 0;
-    color: #000;
+    font-weight: bold;
+    
+    /* Forces the text to be white, but gives it a thick black outline and deep shadow */
+    color: #ffffff; 
+    text-shadow: 
+        -2px -2px 0 #000,  
+         2px -2px 0 #000,
+        -2px  2px 0 #000,
+         2px  2px 0 #000,
+         4px  4px 8px rgba(0, 0, 0, 0.9);
 }
 
 /* Answer */
@@ -91,8 +103,10 @@ button:hover {
 /* Result */
 
 #result {
-    font-size: 20px;
+    font-size: 24px;
     margin: 0;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
 
 #back {
@@ -120,10 +134,6 @@ button:hover {
     text-decoration: none;
     color: #000;
 }
-
-
-
-
 
 @media (max-width: 600px) {
 
