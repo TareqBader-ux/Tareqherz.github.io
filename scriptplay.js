@@ -75,3 +75,22 @@ function checkAnswer() {
 
 
 newQuestion();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+console.log("There is nothing here, turn around");

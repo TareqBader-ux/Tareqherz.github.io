@@ -10,3 +10,16 @@ if (firstVisit === "true") {
     document.getElementById("welcomeback").textContent =
         `Welcome back, ${name}!`;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+console.log("There is nothing here, turn around");
