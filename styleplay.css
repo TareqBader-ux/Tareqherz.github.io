@@ -9,7 +9,7 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
 
-    background-image: url("https://pexels.com");
+    background-image: url("https://images.pexels.com/photos/7429501/pexels-photo-7429501.jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -45,10 +45,11 @@ h1 {
 }
 
 /* Question */
+
 #question {
     font-size: 30px;
     margin: 0;
-    color: #000000; /* Pure black text */
+    color: #000;
 }
 
 /* Answer */
@@ -119,6 +120,9 @@ button:hover {
     text-decoration: none;
     color: #000;
 }
+
+
+
 
 
 @media (max-width: 600px) {
